@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX IF NOT EXISTS submissions_email_completed_idx ON public.submissions (lower(email)) WHERE submission_status = 'completed';

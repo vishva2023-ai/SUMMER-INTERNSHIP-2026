@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1791824336429,
+      "tag": "0000_create_submissions",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1791824403916,
+      "tag": "0001_submission_id_function",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1791830377242,
+      "tag": "0002_unique_email_submission",
+      "breakpoints": true
+    }
+  ]
+}
