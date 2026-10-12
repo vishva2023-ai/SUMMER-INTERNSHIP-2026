@@ -1,0 +1,11 @@
+# The portal runs on Lovable (database + Google Drive/Sheets live there).
+# Netlify just serves it under this address by proxying every request.
+[build]
+  command = "echo 'No build needed - proxied to Lovable'"
+  publish = "public"
+
+[[redirects]]
+  from = "/*"
+  to = "https://summer-internship-2026-vit.lovable.app/:splat"
+  status = 200
+  force = true
